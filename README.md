@@ -4,6 +4,7 @@ for a stackhunter.com blog
 
 here is the output when you run the service then invoke http://localhost:8080/log?m=segmentation%20fault&s=out.of.memory.error:
 
+<pre>
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -37,3 +38,4 @@ here is the output when you run the service then invoke http://localhost:8080/lo
 2015-12-11 10:46:40.769  INFO 3952 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2015-12-11 10:46:40.885  INFO 3952 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 116 ms
 message:segmentation fault, stacktrace: out.of.memory.error
+</pre>
